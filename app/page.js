@@ -8,7 +8,7 @@ export default function Home() {
     <div className="relative min-h-screen overflow-hidden">
 
       <Image
-        src={atlas} 
+        src="/atlas.jpg" 
         alt="Background"
         fill
         priority

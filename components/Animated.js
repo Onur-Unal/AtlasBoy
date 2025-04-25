@@ -17,7 +17,7 @@ export default function AnimatedText() {
   }, [index, sentenceArray]);
 
   return (
-    <h1 className="text-[#5fa5ba] bg-white/70 px-4 py-2 rounded-md text-6xl font-bold text-center flex flex-row justify-center items-center">
+    <h1 className="text-[#178eb3] bg-white/70 px-4 py-2 rounded-md text-6xl font-bold text-center flex flex-row justify-center items-center">
       {displayedText}
     </h1>
   );

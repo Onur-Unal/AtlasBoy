@@ -5,6 +5,7 @@ const nextConfig = {
       unoptimized: true,
     },
     trailingSlash: true,
+    // basePath: '/AtlasBoy',
 };
 
 export default nextConfig;
