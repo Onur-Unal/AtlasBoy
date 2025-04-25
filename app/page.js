@@ -1,9 +1,9 @@
 import AnimatedText from "@/components/Animated";
 import ConfettiRain from "@/components/Confetti";
 import Image from "next/image";
+import { basePath } from "@/lib/config";
 
 export default function Home() {
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     <div className="relative min-h-screen overflow-hidden">
 
