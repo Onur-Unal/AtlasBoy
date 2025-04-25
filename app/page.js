@@ -1,3 +1,4 @@
+"use client";
 import AnimatedText from "@/components/Animated";
 import ConfettiRain from "@/components/Confetti";
 import Image from "next/image";
