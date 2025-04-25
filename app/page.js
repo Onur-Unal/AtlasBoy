@@ -3,6 +3,7 @@ import ConfettiRain from "@/components/Confetti";
 import Image from "next/image";
 
 export default function Home() {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     <div className="relative min-h-screen overflow-hidden">
 
