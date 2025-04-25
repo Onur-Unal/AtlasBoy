@@ -1,14 +1,13 @@
 import AnimatedText from "@/components/Animated";
 import ConfettiRain from "@/components/Confetti";
 import Image from "next/image";
-import atlas from "@/public/atlas.jpg";
 
 export default function Home() {
   return (
     <div className="relative min-h-screen overflow-hidden">
 
       <Image
-        src="/atlas.jpg" 
+        src={`${basePath}/atlas.jpg`} 
         alt="Background"
         fill
         priority
